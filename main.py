@@ -5,6 +5,7 @@ from facade import facade_project
 from proxy import proxy_project_1, proxy_project_2
 from observer import observer_project_1, observer_project_2
 from command import command_project_1, command_project_2, command_project_3
+from template_method import template_method_project_1, template_method_project_2, template_method_project_3
 
 if __name__ == "__main__":
     # singleton_project_1()
@@ -19,4 +20,7 @@ if __name__ == "__main__":
     # observer_project_2()
     # command_project_1()
     # command_project_2()
-    command_project_3()
+    # command_project_3()
+    # template_method_project_1()
+    # template_method_project_2()
+    template_method_project_3()
